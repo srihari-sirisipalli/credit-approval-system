@@ -1,0 +1,6 @@
+Django
+datetime
+pandas
+openpyxl
+djangorestframework
+psycopg2
