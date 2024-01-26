@@ -54,9 +54,6 @@ Make sure you have Docker and Docker Compose installed on your machine.
 
 5. Test in Docker Shell
     ```bash
-    python manage.py makemigrations
-    python manage.py migrate
-    python manage.py initdata
    python manage.py test credit_app.tests
    ```
 
