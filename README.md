@@ -51,11 +51,16 @@ Make sure you have Docker and Docker Compose installed on your machine.
    docker-compose exec django_app /bin/bash
    ```
    Note : Use new terminal for shell
+5. Access APIs
+```bash
+http://0.0.0.0:8000
+```
 
-5. Test in Docker Shell
+6. Test in Docker Shell
     ```bash
    python manage.py test credit_app.tests
    ```
+    
 
 
 ### Cleanup
